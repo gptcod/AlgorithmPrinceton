@@ -22,9 +22,9 @@ public class QuickUnionUF {
 	}
 
 	public void union(int p, int q) {
-		int pRoot = root(p);
-		int qRoot = root(q);
+		int i = root(p);
+		int j = root(q);
 
-		id[p] = qRoot;
+		id[i] = j;
 	}
 }
