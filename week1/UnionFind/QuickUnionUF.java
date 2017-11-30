@@ -1,5 +1,5 @@
 public class QuickUnionUF {
-	private int id[];
+	private int[] id;
 
 	public QuickUnionUF(int N) {
 		id = new int[N];
